@@ -1,0 +1,51 @@
+LOGGING:
+  disable_existing_loggers: true
+  formatters:
+    simple:
+      format: "%(asctime)s - %(name)s - %(levelname)s -- \n%(message)s\n"
+  handlers:
+    console:
+      class: logging.StreamHandler
+      formatter: simple
+      level: DEBUG
+      stream: ext://sys.stdout
+    error_file_handler:
+      backupCount: 20
+      class: logging.handlers.RotatingFileHandler
+      encoding: utf8
+      filename: clana/logs/clana.error.log
+      formatter: simple
+      level: ERROR
+      maxBytes: 10485760
+    info_file_handler:
+      backupCount: 20
+      class: logging.handlers.RotatingFileHandler
+      encoding: utf8
+      filename: clana/logs/clana.info.log
+      formatter: simple
+      level: INFO
+      maxBytes: 10485760
+  loggers:
+    my_module:
+      handlers:
+      - console
+      level: ERROR
+      propagate: false
+  root:
+    handlers:
+    - console
+    - info_file_handler
+    - error_file_handler
+    level: DEBUG
+  version: 1
+visualize:
+  colormap: viridis
+  interpolation: nearest
+  norm: LogNorm
+  output_cm_path: save/clana_cm(cog_module_1k.xlsx).pdf
+  output_hierarchy_path: save/hierarchy_labels(cog_module_1k.xlsx).json
+  output_score_path: save/clana_opt(cog_module_1k.xlsx).png
+  save_perm_path: save/.clana
+  threshold: 0.1
+  xlabels_rotation: -90
+  ylabels_rotation: 0

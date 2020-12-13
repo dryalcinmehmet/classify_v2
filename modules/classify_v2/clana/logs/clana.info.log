@@ -1,0 +1,100 @@
+2020-08-28 12:06:39,024 - clana.conf - WARNING -- 
++-----------------------------------------------+
+| The following classes were never predicted:   |
+|-----------------------------------------------|
+| altyapı kurumlarına ait                       |
++-----------------------------------------------+
+
+2020-08-28 12:06:39,024 - clana.conf - INFO -- 
+Count of label: 20
+
+
+2020-08-28 12:42:21,571 - clana.conf - WARNING -- 
++-----------------------------------------------+
+| The following classes were never predicted:   |
+|-----------------------------------------------|
+| altyapı kurumlarına ait                       |
++-----------------------------------------------+
+
+2020-08-28 12:42:21,571 - clana.conf - INFO -- 
+Count of label: 20
+
+2020-08-28 12:42:21,571 - clana.conf - INFO -- 
+## Starting Score: 560.00
+
+2020-08-28 12:42:21,817 - clana.conf - INFO -- 
+## Save opt figure at '/home/uguray/projects/classify/classify_zero (copy)/clana/save/clana_opt(cog_module_1k.xlsx).png'
+
+2020-08-28 12:42:21,817 - clana.conf - INFO -- 
+## Finishing Score: 352.00
+
+2020-08-28 12:42:21,818 - clana.conf - INFO -- 
+## Save perm at '/home/uguray/projects/classify/classify_zero (copy)/clana/save/.clana'
+
+2020-08-28 12:42:21,819 - clana.conf - INFO -- 
++-----+---------------------------------+
+|   # | Classes:                        |
+|-----+---------------------------------|
+|   0 | ilçe sınırları ilaçlama         |
+|   1 | çevre temizliği işlemlerinin    |
+|   2 | sosyal yardımlar                |
+|   3 | altyapı kurumlarına ait         |
+|   4 | bordür ve tretuvar              |
+|   5 | asfalt yapım işlemleri          |
+|   6 | muhtelif yapım işleri           |
+|   7 | yapı denetiminin yapılması      |
+|   8 | zabıta denetim işlemleri        |
+|   9 | talep, şikayet, görüşler        |
+|  10 | çevre kirliliği işlemleri       |
+|  11 | ağaçlandırma, bitkilendirme ve  |
+|  12 | sahipsiz hayvanların toplanması |
+|  13 | çöp konteyneri işlemlerinin     |
+|  14 | çöplerin kaldırılması talepleri |
+|  15 | ızgara yapım, onarım            |
+|  16 | molozların toplanması           |
+|  17 | atık işlemleri                  |
+|  18 | bank, oyun gurubu,              |
+|  19 | set yapım işlemleri             |
++-----+---------------------------------+
+
+2020-08-28 12:42:21,819 - clana.conf - INFO -- 
+## Accuracy: 68.83
+
+2020-08-28 12:42:22,279 - clana.conf - INFO -- 
+## Save figure at '/home/uguray/projects/classify/classify_zero (copy)/clana/save/clana_cm(cog_module_1k.xlsx).pdf'
+
+2020-08-28 12:42:22,279 - clana.conf - INFO -- 
+## Found threshold for local connection: 6
+
+2020-08-28 12:42:22,279 - clana.conf - INFO -- 
+## Found clusters: 18
+
+2020-08-28 12:42:22,280 - clana.conf - INFO -- 
+## Silhouette score: 0
+
+2020-08-28 12:42:22,280 - clana.conf - INFO -- 
++-----+----------------------------+
+|   # | Extract labels: 2          |
+|-----+----------------------------|
+|   0 | yapı denetiminin yapılması |
+|   1 | zabıta denetim işlemleri   |
++-----+----------------------------+
+
+2020-08-28 12:42:22,280 - clana.conf - INFO -- 
++-----+---------------------------+
+|   # | Extract labels: 2         |
+|-----+---------------------------|
+|   0 | talep, şikayet, görüşler  |
+|   1 | çevre kirliliği işlemleri |
++-----+---------------------------+
+
+2020-08-28 12:42:22,280 - clana.conf - INFO -- 
++-----+----------------------------+
+|   # | All extract labels: 4      |
+|-----+----------------------------|
+|   0 | yapı denetiminin yapılması |
+|   1 | zabıta denetim işlemleri   |
+|   2 | talep, şikayet, görüşler   |
+|   3 | çevre kirliliği işlemleri  |
++-----+----------------------------+
+

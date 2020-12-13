@@ -1,0 +1,34 @@
+version: '3.4'
+
+services:
+  classify_v2:
+    image: 212.156.131.82/cognitus/classify_v2:${TAG}
+    ports:
+      - 5000:5000
+    deploy:
+      replicas: 1
+      update_config:
+        order: start-first
+    entrypoint: /entrypoints/entrypoint.sh
+    env_file:
+      - ./corporate_compose_env
+    environment:
+      APPLICATION_PORT: 5000
+      REDIS_URL: classify_v2_redis
+  classify_v2_redis:
+    image: redis
+  classify_v2_celery:
+    image: 212.156.131.82/cognitus/classify_v2:${TAG}
+    deploy:
+        replicas: 1
+    env_file:
+      - ./env
+    environment:
+      REDIS_URL: classify_v2_redis
+    healthcheck:
+      disable: true
+    entrypoint: /entrypoints/celery_entrypoint.sh
+    volumes:
+      - /cognitus/log:/app/logs
+    depends_on:
+      - classify_v2_redis

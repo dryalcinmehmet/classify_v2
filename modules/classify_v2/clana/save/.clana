@@ -1,0 +1,313 @@
+data:
+  conf_matrix(1).json:
+    0571106059c07b8208f392e4a386eb9a:
+      iterations: 2000
+      permutation:
+      - 0
+      - 1
+      - 4
+      - 3
+      - 2
+    124b32a63ba1d0c99e286f895c896810:
+      iterations: 1000
+      permutation:
+      - 0
+      - 2
+      - 3
+      - 4
+      - 1
+    12c700889c940638f5fc2d4895009c84:
+      iterations: 1000
+      permutation:
+      - 0
+      - 2
+      - 4
+      - 1
+      - 3
+    46c5434b3ddf37682d8fef6853eb934b:
+      iterations: 1000
+      permutation:
+      - 1
+      - 4
+      - 3
+      - 2
+      - 0
+    6aaa2e1f19686af7eb820fccc4f08171:
+      iterations: 2000
+      permutation:
+      - 0
+      - 2
+      - 3
+      - 4
+      - 1
+    86cdfa8aecb2c82b2b5718e9449613b0:
+      iterations: 6000
+      permutation:
+      - 0
+      - 2
+      - 3
+      - 4
+      - 1
+    8f6461b490a85d6c58490590018ae3d2:
+      iterations: 1000
+      permutation:
+      - 0
+      - 2
+      - 3
+      - 4
+      - 1
+    9401b427dec7a8efe1b9dc2dc3c53083:
+      iterations: 1000
+      permutation:
+      - 0
+      - 2
+      - 3
+      - 4
+      - 1
+    97e24245403f975760a1c607ffadbdf8:
+      iterations: 6000
+      permutation:
+      - 0
+      - 2
+      - 3
+      - 4
+      - 1
+    a459f29cbf52a2a7d3fc0008bbacad18:
+      iterations: 1000
+      permutation:
+      - 0
+      - 1
+      - 3
+      - 4
+      - 2
+    a58031b54a0217e64e58469e53d46a74:
+      iterations: 5000
+      permutation:
+      - 0
+      - 2
+      - 3
+      - 4
+      - 1
+    d14475fbfe69757690dc75a955caf6b7:
+      iterations: 1000
+      permutation:
+      - 0
+      - 2
+      - 4
+      - 3
+      - 1
+    ee2e2755a8bb44d841f4a33821e4607f:
+      iterations: 1000
+      permutation:
+      - 3
+      - 4
+      - 1
+      - 0
+      - 2
+    f64aaa9c18880269bc90a877bde3b2a0:
+      iterations: 1000
+      permutation:
+      - 0
+      - 2
+      - 3
+      - 4
+      - 1
+    f74695b25d43f01d6d367822c1b64a7e:
+      iterations: 3000
+      permutation:
+      - 1
+      - 4
+      - 3
+      - 2
+      - 0
+  conf_matrix(3).json:
+    3d418a45b9026a7ff413da26156c642a:
+      iterations: 1000
+      permutation:
+      - 2
+      - 3
+      - 1
+      - 4
+      - 0
+    680d292b2ea394598af9c5f2dd81e81e:
+      iterations: 1000
+      permutation:
+      - 0
+      - 2
+      - 3
+      - 1
+      - 4
+  conf_matrix(4).json:
+    05d56fbd55aabf5f01519535897e6a62:
+      iterations: 2000
+      permutation:
+      - 0
+      - 2
+      - 3
+      - 1
+      - 4
+    0b390a99a769c05f01d41ded27c0e079:
+      iterations: 1000
+      permutation:
+      - 0
+      - 2
+      - 3
+      - 1
+      - 4
+    22158c0878f87d9665a34ef7adaeb788:
+      iterations: 1000
+      permutation:
+      - 0
+      - 2
+      - 4
+      - 3
+      - 1
+    2849a299caf54ab2fde13a0db7efde30:
+      iterations: 2000
+      permutation:
+      - 2
+      - 0
+      - 3
+      - 4
+      - 1
+    286648dd812b64be5c846944d8a2368a:
+      iterations: 4000
+      permutation:
+      - 2
+      - 0
+      - 4
+      - 3
+      - 1
+    3815b81ff6a171ee5dd2e24a30658455:
+      iterations: 4000
+      permutation:
+      - 0
+      - 2
+      - 4
+      - 1
+      - 3
+    38a63123c08265e93e9d110a93d70bed:
+      iterations: 9000
+      permutation:
+      - 1
+      - 3
+      - 4
+      - 0
+      - 2
+    47b7fe18fa3544c0b332ab1df684ea0d:
+      iterations: 1000
+      permutation:
+      - 0
+      - 2
+      - 3
+      - 4
+      - 1
+    569cdc0b0486c9b04eab0faffbc68cbe:
+      iterations: 3000
+      permutation:
+      - 2
+      - 0
+      - 4
+      - 3
+      - 1
+    819b26ae343d400afe3e315751baada3:
+      iterations: 1000
+      permutation:
+      - 0
+      - 1
+      - 4
+      - 3
+      - 2
+    b675bd459c09c20409a542be03d6365e:
+      iterations: 3000
+      permutation:
+      - 3
+      - 4
+      - 1
+      - 0
+      - 2
+  conf_matrix(5).json:
+    0d107149932b8d7581e9d7427ef01168:
+      iterations: 1000
+      permutation:
+      - 6
+      - 0
+      - 4
+      - 3
+      - 2
+      - 5
+      - 1
+      - 7
+    856375160ccd5aa6cad2cf9cb102a0a2:
+      iterations: 2000
+      permutation:
+      - 6
+      - 0
+      - 7
+      - 1
+      - 5
+      - 2
+      - 4
+      - 3
+    96f8dcb887486ace3ff3c41498aa6396:
+      iterations: 2000
+      permutation:
+      - 3
+      - 4
+      - 2
+      - 5
+      - 1
+      - 7
+      - 0
+      - 6
+    a12532a7ea83b2c71c97e22e3010fe78:
+      iterations: 1000
+      permutation:
+      - 6
+      - 0
+      - 7
+      - 1
+      - 5
+      - 2
+      - 4
+      - 3
+    a7f617981c926ec669d3cef9f2ac872e:
+      iterations: 1000
+      permutation:
+      - 6
+      - 7
+      - 1
+      - 5
+      - 2
+      - 3
+      - 4
+      - 0
+    ce92faa4ab3ff0a2e2d73742a9b6c490:
+      iterations: 1000
+      permutation:
+      - 6
+      - 0
+      - 4
+      - 3
+      - 2
+      - 5
+      - 1
+      - 7
+    f38f03d853f24ce78671fde284826bfd:
+      iterations: 3000
+      permutation:
+      - 6
+      - 0
+      - 3
+      - 2
+      - 5
+      - 1
+      - 7
+      - 4
+  conf_matrix(9).json:
+    541b14076041221fb085ec24d0264e13:
+      iterations: 24000
+      permutation:
+      - 0
+      - 1
+      - 2
